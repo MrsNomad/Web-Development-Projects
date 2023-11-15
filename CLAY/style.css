@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Playfair Display', serif;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo{
+  font-size: 1.7em;
+  cursor: default;
+  color: burlywood;
+}
+
+.navigation a {
+  color: #fff;
+  font-size: 1.1em;
+  margin-left: 12px;
+  text-decoration: none;
+  padding: 6px 15px;
+  font-weight: 600 ;
+}
+
+.navigation a:hover{
+  border-bottom: 2px solid #fff;
+  border-top: 2px dotted rgb(255, 255, 255);
+}
+
+.hero{
+  position: relative;
+  width:100%;
+  height: 100vh;
+  background: url(clay.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content{
+  color: #fff;
+  text-align: center;
+}
+
+h3{
+  font-size: 2em;
+}
+
+h1{
+  font-size: 2.5em;
+}
+
+button{
+  font-size: 1.3em;
+  color: burlywood;
+  font-weight: 600;
+  padding: 10px 50px;
+  cursor: pointer;
+  border-radius: 40px;
+  background: transparent;
+  border: 2px solid #fff;
+  outline: none;
+  margin-top: 30px;
+}

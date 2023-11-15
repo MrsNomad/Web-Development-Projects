@@ -1,0 +1,86 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  width: 95%;
+  height: 640px;
+  background-size: cover;
+  background-image:linear-gradient(to right, #c0ced6 30%, #2b6f6a), 
+  url(paint.jpg);
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo{
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+ul{
+  font-size: 20px;
+  width: 60%;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+ul a:hover{
+  border-bottom: 2px solid #fff;
+  border-top: 2px dotted peachpuff;
+}
+
+.content{
+  width: 505;
+  margin-top: 50px;
+  padding: 30px;
+  color: #fff;
+}
+
+.content h2{
+ 
+  font-size: 80px;
+  text-transform: uppercase;
+
+}
+
+.content p{
+  initial-letter: 5px;
+  width: 420px;
+  padding: 70px 0 ;
+}
+
+.content button{
+  font-size: 30px;
+  padding: 6px 10px;
+  border-radius: 10px;
+  border: none;
+
+}
+
+.content button:hover{
+  background-color: transparent;
+  border:2px solid #fff;
+  color: #fff;
+}
